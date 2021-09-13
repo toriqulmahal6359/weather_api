@@ -1,0 +1,23 @@
+body{
+    background: url("../img/3582446.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+}
+
+.bg-custom{
+    border: 1px solid #36362b;
+    color: #FFF;
+    background-image: url("../img/3582446.jpeg");
+    background-position: bottom;
+}
+.mb-2{
+    margin-bottom: 4px;
+}
+.container::after{
+    content: 'Weather App';
+    text-align: center;
+    color: #FFF;
+    display: block;
+    font-size: small;
+}
